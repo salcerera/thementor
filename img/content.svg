@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1070.025 1992.969 89.318 89.318">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <g id="content" transform="translate(1070.025 1992.969)">
+    <g id="Group_104" data-name="Group 104">
+      <g id="Group_103" data-name="Group 103">
+        <path id="Path_48" data-name="Path 48" class="cls-1" d="M86.527,0H2.791A2.792,2.792,0,0,0,0,2.791V69.78a2.792,2.792,0,0,0,2.791,2.791H30.7V83.736H22.329v5.582H66.988V83.736H58.615V72.571H86.527a2.792,2.792,0,0,0,2.791-2.791V2.791A2.792,2.792,0,0,0,86.527,0ZM53.033,83.736H36.285V72.571H53.033Zm30.7-16.747H5.582V55.824H83.736Zm-30.7-33.494H66.988V50.241H22.329V16.747H50.241V30.7A2.792,2.792,0,0,0,53.033,33.494Zm2.791-5.582V20.694l7.218,7.218ZM83.736,50.241H72.571V30.7a2.784,2.784,0,0,0-.818-1.973L55.006,11.983a2.784,2.784,0,0,0-1.973-.818H19.538a2.792,2.792,0,0,0-2.791,2.791V50.241H5.582V5.582H83.736Z"/>
+      </g>
+    </g>
+    <g id="Group_106" data-name="Group 106" transform="translate(27.912 22.329)">
+      <g id="Group_105" data-name="Group 105">
+        <rect id="Rectangle_424" data-name="Rectangle 424" class="cls-1" width="5.582" height="5.582"/>
+      </g>
+    </g>
+    <g id="Group_108" data-name="Group 108" transform="translate(27.912 30.703)">
+      <g id="Group_107" data-name="Group 107">
+        <rect id="Rectangle_425" data-name="Rectangle 425" class="cls-1" width="16.747" height="5.582"/>
+      </g>
+    </g>
+    <g id="Group_110" data-name="Group 110" transform="translate(27.912 39.077)">
+      <g id="Group_109" data-name="Group 109">
+        <rect id="Rectangle_426" data-name="Rectangle 426" class="cls-1" width="16.747" height="5.582"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,530 @@
+/* custom reset and style guides  */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600 !important;
+    letter-spacing: -1.5px !important;
+}
+
+p, a{
+    font-weight: 400 !important;
+    color: #707070 !important;
+    text-decoration: none !important;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+.btn{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600 !important;
+    box-shadow: 0px 20px 42px rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 0;
+}
+
+.btn-lg {
+    max-width: 220px;
+    width: auto;
+    height: 70px;
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+}
+
+.btn-primary{
+    max-width: 220px;
+    width: auto;
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+}
+
+.btn-primary:hover{
+   background: #1A1A1A;
+   color: #ffffff !important;
+    max-width: 250px;
+}
+
+
+
+/* Header section starts here  */
+
+
+header{
+    min-height: 600px;
+    height: auto;
+    background: url("../img/header_bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item{
+    margin: 7px 10px;
+}
+
+
+.jumbotron p.text-muted{
+    width: 55%;
+}
+
+.jumbotron{
+    margin-top: 40px;
+}
+
+
+/* Header section media queries 
+starts here  */
+
+
+@media(max-width:980px){
+   .navbar{
+        padding: 0;
+    }
+    .navbar-nav{
+        background: #1a1a1a;
+    }
+    
+    .navbar-brand, .navbar-toggler{
+        margin: 7px 10px;
+    }
+    
+    .nav-link{
+        color: #ffffff !important;
+    }
+}
+
+
+@media(max-width: 500px){
+    
+    .navbar{
+        padding: 0;
+    }
+    .navbar-nav{
+        background: #1a1a1a;
+    }
+    
+    .navbar-brand, .navbar-toggler{
+        margin: 7px 10px;
+    }
+    
+    .nav-link{
+        color: #ffffff !important;
+    }
+    
+    .jumbotron p.text-muted{
+        width: 100%;
+    }
+    
+    .jumbotron{
+        margin-top: 0px;
+    }
+
+
+}
+
+/* Header section ends here  */
+
+/* 
+==========================
+==========================
+*/
+
+/* About section starts here */
+
+.about{
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.about-details{
+    width: 90%;
+}
+
+
+/* About section media Queries starts here */
+
+@media (max-width: 980px){
+    
+    .about-left{
+        order: 2;
+    }
+
+    .about-featured{
+        order: 1;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .about-details{
+        width: 100%;
+    }
+
+}
+
+/* About section ends here */
+
+/* 
+==========================
+==========================
+*/
+
+/* Expertise section starts here */
+
+.expertise{
+    height: auto;
+    min-height: 800px;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+.expertise p{
+    width: 50%;
+    text-align: center;
+}
+
+.expertise h3{
+    text-align: center;
+}
+
+.services{
+    max-width: 300px;
+    max-height: 300px;
+    border: none;
+    box-shadow: 0px 10px 42px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+
+.services:hover{
+    transform: translateY(-15px);
+}
+
+.services img{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Expertise section media Queries starts here */
+
+@media (max-width: 980px) {
+    
+    .expertise{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .expertise p{
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 767px){
+    
+    .expertise p{
+        width: 100%;
+        text-align: left;
+    }
+    
+    .expertise h3{
+        text-align: left;
+    }
+}
+
+
+/* Expertise section ends here */
+
+/* 
+==========================
+==========================
+*/
+
+/* Services Details section starts here */
+
+.services-details{
+    min-height: 500px;
+    height: auto;
+    display: flex;
+}
+
+.description p{
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.market-research-bg{
+    background: url(../img/market_feat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.web-analytics-bg{
+    background: url(../img/analytics_feat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;  
+}
+
+.content-marketing-bg{
+    background: url(../img/content_feat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+}
+
+
+.seo-bg{
+    background: url(../img/seo_feat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+}
+
+
+@media(min-width:768px){
+    .web-analytics-bg{
+        order: 4;
+    }
+    
+    .web-analytics{
+        order: 3;
+    }
+    
+    .content-marketing-bg{
+        order: 5;
+    }
+    
+    .content-marketing{
+        order: 6;
+    }
+    
+    .seo{
+        order: 7;
+    }
+    
+    .seo-bg{
+        order: 8;
+    }
+}
+
+/* Services details media Queries starts here */
+
+@media (max-width:980px) {
+    .description{
+        padding: 50px;
+    }
+    
+    .description p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .market-research-bg{
+        background: url("../img/market_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .web-analytics-bg{
+        background: url("../img/analytics_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .content-marketing-bgP{
+        background: url("../img/content_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .seo-bg{
+        background: url("../img/seo_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+@media (max-width: 500px){
+    .market-research-bg{
+        background: url("../img/market_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 300px;
+    }
+    
+    .web-analytics-bg{
+        background: url("../img/analytics_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 300px;
+    }
+    
+    .content-marketing-bg{
+        background: url("../img/content_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 300px;
+    }
+    
+    .seo-bg{
+        background: url("../img/seo_feat_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 300px;
+    }
+    
+    .description{
+        padding: 20px 0px;
+    }
+    
+}
+
+
+/* Services details  ends here */
+
+/* 
+==========================
+==========================
+*/
+
+/* Contact section starts here */
+
+
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.contact p{
+    width: 40%;
+}
+
+
+.form-control{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    background: #ECECEC !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 0 !important;
+    outline: none;
+    box-shadow: none !important;
+    transition: all 0.3s ease-out !important;
+}
+
+.bline:focus{
+    border-bottom: 4px solid rgba(0,0,0,0.3) !important;
+}
+
+.cta-btn{
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+    height: 50px;
+}
+
+.cta-btn:active{
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+    height: 50px;
+}
+
+.cta-btn:visited{
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+    height: 50px;
+}
+
+.cta-btn:focus{
+    background: #1A1A1A;
+    color: #ffffff !important;
+    transition: all 0.3s ease-out;
+    height: 50px;
+}
+
+
+/* Contact media Queries starts here */
+
+@media(max-width: 900px){
+    .contact p{
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 767px){
+    
+    .contact{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .contact p{
+        width: 100%;
+    }
+}
+
+
+/* Contact section ends here */
+
+/* 
+==========================
+==========================
+*/
+
+/* Footer section starts here */
+
+.footer{
+    min-height: 300px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+footer p, a{
+    font-size: 0.95em;
+}
+
+
+.float-btn-top{
+    position: fixed;
+    height: 200px;
+    background: gray;
+    width: 200px;
+}
